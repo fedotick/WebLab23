@@ -1,0 +1,59 @@
+.converter {
+    padding: 50px 75px;
+    border-radius: 10px;
+    border: 1px solid rgb(204, 204, 204);
+    gap: 10px;
+}
+
+.converter p {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.inputs {
+    margin: 20px 0;
+    display: flex;
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid rgb(204, 204, 204);
+}
+
+.inputs input[type="number"] {
+    flex: 1;
+    width: auto;
+    border: 0;
+    padding: 10px 15px;
+    outline: none;
+    background-color: transparent;
+}
+
+.vertical-line {
+    width: 1px;
+    margin: 15px 0;
+    height: 30px;
+    background-color: rgb(204, 204, 204);
+}
+
+.inputs select {
+    border: 0;
+    outline: none;
+    padding: 10px 15px;
+    background-color: transparent;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.inputs:hover {
+    border-color: rgb(129, 129, 129);
+    outline: 1px solid rgb(129, 129, 129);
+}
+
+.inputs:focus-within {
+    border-color: rgb(26, 115, 232);
+    outline: 1px solid rgb(26, 115, 232);
+}

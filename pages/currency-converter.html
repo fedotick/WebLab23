@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="shortcut icon" href="../assets/img/logo-white.png" />
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/currency-converter-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="converter">
+        <div class="header">
+            <p>CURRENCY CONVERTER</p>
+        </div>
+        <div class="inputs-section">
+            <div class="inputs">
+                <input id="entryAmount" type="number">
+                <div class="vertical-line"></div>
+                <select id="inputCurrency">
+                    <option value="eur">eur</option>
+                    <option value="gbr">gbr</option>
+                    <option value="mdl" selected>mdl</option>
+                    <option value="ron">ron</option>
+                    <option value="rub">rub</option>
+                    <option value="uah">uah</option>
+                    <option value="usd">usd</option>
+                </select>
+            </div>
+            <div class="inputs">
+                <input id="outputAmount" type="number">
+                <div class="vertical-line"></div>
+                <select id="outputCurrency">
+                    <option value="eur" selected>eur</option>
+                    <option value="gbr">gbr</option>
+                    <option value="mdl">mdl</option>
+                    <option value="ron">ron</option>
+                    <option value="rub">rub</option>
+                    <option value="uah">uah</option>
+                    <option value="usd">usd</option>
+                </select>
+            </div>
+        </div>
+    </div>  
+</body>
+</html>
